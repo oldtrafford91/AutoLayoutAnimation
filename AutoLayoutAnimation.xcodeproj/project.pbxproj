@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1211C1D1BF2782F009AF2C6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E1211C1C1BF2782F009AF2C6 /* README.md */; };
+		E1211C211BF28666009AF2C6 /* screenshot in Resources */ = {isa = PBXBuildFile; fileRef = E1211C201BF28666009AF2C6 /* screenshot */; };
 		E1EB6A881BD5EE0F00D766C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6A871BD5EE0F00D766C8 /* main.m */; };
 		E1EB6A8B1BD5EE0F00D766C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6A8A1BD5EE0F00D766C8 /* AppDelegate.m */; };
 		E1EB6A8E1BD5EE0F00D766C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6A8D1BD5EE0F00D766C8 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		E1EB6A961BD5EE0F00D766C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EB6A941BD5EE0F00D766C8 /* LaunchScreen.storyboard */; };
 		E1EB6AA11BD5EE0F00D766C8 /* AutoLayoutAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6AA01BD5EE0F00D766C8 /* AutoLayoutAnimationTests.m */; };
 		E1EB6AAC1BD5EE0F00D766C8 /* AutoLayoutAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6AAB1BD5EE0F00D766C8 /* AutoLayoutAnimationUITests.m */; };
+		E1EB6ABB1BD5FFE100D766C8 /* HorizonalItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6ABA1BD5FFE100D766C8 /* HorizonalItemList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1211C1C1BF2782F009AF2C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E1211C201BF28666009AF2C6 /* screenshot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = screenshot; sourceTree = "<group>"; };
 		E1EB6A831BD5EE0F00D766C8 /* AutoLayoutAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EB6A871BD5EE0F00D766C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1EB6A891BD5EE0F00D766C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		E1EB6AA71BD5EE0F00D766C8 /* AutoLayoutAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EB6AAB1BD5EE0F00D766C8 /* AutoLayoutAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutAnimationUITests.m; sourceTree = "<group>"; };
 		E1EB6AAD1BD5EE0F00D766C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EB6AB91BD5FFE100D766C8 /* HorizonalItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonalItemList.h; sourceTree = "<group>"; };
+		E1EB6ABA1BD5FFE100D766C8 /* HorizonalItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonalItemList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +85,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1211C1E1BF2842B009AF2C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB6AB91BD5FFE100D766C8 /* HorizonalItemList.h */,
+				E1EB6ABA1BD5FFE100D766C8 /* HorizonalItemList.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E1211C1F1BF28437009AF2C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB6A8C1BD5EE0F00D766C8 /* ViewController.h */,
+				E1EB6A8D1BD5EE0F00D766C8 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		E1EB6A7A1BD5EE0F00D766C8 = {
 			isa = PBXGroup;
 			children = (
+				E1211C201BF28666009AF2C6 /* screenshot */,
+				E1211C1C1BF2782F009AF2C6 /* README.md */,
 				E1EB6A851BD5EE0F00D766C8 /* AutoLayoutAnimation */,
 				E1EB6A9F1BD5EE0F00D766C8 /* AutoLayoutAnimationTests */,
 				E1EB6AAA1BD5EE0F00D766C8 /* AutoLayoutAnimationUITests */,
@@ -103,8 +130,8 @@
 			children = (
 				E1EB6A891BD5EE0F00D766C8 /* AppDelegate.h */,
 				E1EB6A8A1BD5EE0F00D766C8 /* AppDelegate.m */,
-				E1EB6A8C1BD5EE0F00D766C8 /* ViewController.h */,
-				E1EB6A8D1BD5EE0F00D766C8 /* ViewController.m */,
+				E1211C1E1BF2842B009AF2C6 /* View */,
+				E1211C1F1BF28437009AF2C6 /* Controller */,
 				E1EB6A8F1BD5EE0F00D766C8 /* Main.storyboard */,
 				E1EB6A921BD5EE0F00D766C8 /* Assets.xcassets */,
 				E1EB6A941BD5EE0F00D766C8 /* LaunchScreen.storyboard */,
@@ -243,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1211C211BF28666009AF2C6 /* screenshot in Resources */,
 				E1EB6A961BD5EE0F00D766C8 /* LaunchScreen.storyboard in Resources */,
 				E1EB6A931BD5EE0F00D766C8 /* Assets.xcassets in Resources */,
 				E1EB6A911BD5EE0F00D766C8 /* Main.storyboard in Resources */,
@@ -272,7 +300,9 @@
 			files = (
 				E1EB6A8E1BD5EE0F00D766C8 /* ViewController.m in Sources */,
 				E1EB6A8B1BD5EE0F00D766C8 /* AppDelegate.m in Sources */,
+				E1211C1D1BF2782F009AF2C6 /* README.md in Sources */,
 				E1EB6A881BD5EE0F00D766C8 /* main.m in Sources */,
+				E1EB6ABB1BD5FFE100D766C8 /* HorizonalItemList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +444,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayoutAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tumblr.whoistuanhai.AutoLayoutAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -425,9 +457,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayoutAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tumblr.whoistuanhai.AutoLayoutAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +532,7 @@
 				E1EB6AB21BD5EE0F00D766C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1EB6AB31BD5EE0F00D766C8 /* Build configuration list for PBXNativeTarget "AutoLayoutAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +541,7 @@
 				E1EB6AB51BD5EE0F00D766C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1EB6AB61BD5EE0F00D766C8 /* Build configuration list for PBXNativeTarget "AutoLayoutAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +550,7 @@
 				E1EB6AB81BD5EE0F00D766C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
