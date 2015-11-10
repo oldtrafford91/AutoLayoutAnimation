@@ -1,6 +1,6 @@
 # Demo
 
-![]()
+![](https://github.com/oldtrafford91/AutoLayoutAnimation/blob/master/screenshot/Screenshot.gif?raw=true)
 
 # Lesson learned
 
