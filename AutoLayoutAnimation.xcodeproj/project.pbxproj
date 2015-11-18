@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1211C1D1BF2782F009AF2C6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E1211C1C1BF2782F009AF2C6 /* README.md */; };
 		E1211C211BF28666009AF2C6 /* screenshot in Resources */ = {isa = PBXBuildFile; fileRef = E1211C201BF28666009AF2C6 /* screenshot */; };
 		E1EB6A881BD5EE0F00D766C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6A871BD5EE0F00D766C8 /* main.m */; };
 		E1EB6A8B1BD5EE0F00D766C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6A8A1BD5EE0F00D766C8 /* AppDelegate.m */; };
@@ -300,7 +299,6 @@
 			files = (
 				E1EB6A8E1BD5EE0F00D766C8 /* ViewController.m in Sources */,
 				E1EB6A8B1BD5EE0F00D766C8 /* AppDelegate.m in Sources */,
-				E1211C1D1BF2782F009AF2C6 /* README.md in Sources */,
 				E1EB6A881BD5EE0F00D766C8 /* main.m in Sources */,
 				E1EB6ABB1BD5FFE100D766C8 /* HorizonalItemList.m in Sources */,
 			);
